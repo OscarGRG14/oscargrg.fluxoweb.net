@@ -6,7 +6,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 // Settings
-app.set('port', 3102);
+app.set('port', 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
